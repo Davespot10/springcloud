@@ -21,7 +21,7 @@ spring:
     consumer:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      group-id: gidtwo
+      group-id: gid
       auto-offset-reset: earliest
       bootstrap-servers: localhost:9092
       enable-auto-commit: true
